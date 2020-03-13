@@ -1,0 +1,2166 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis projectname="" version="3.10.0-A Coruña">
+  <homePath path=""/>
+  <title></title>
+  <autotransaction active="0"/>
+  <evaluateDefaultValues active="0"/>
+  <trust active="0"/>
+  <projectCrs>
+    <spatialrefsys>
+      <proj4>+proj=tmerc +lat_0=38.83333333333334 +lon_0=-74.5 +k=0.9999 +x_0=150000 +y_0=0 +ellps=GRS80 +units=m +no_defs</proj4>
+      <srsid>28382</srsid>
+      <srid>103484</srid>
+      <authid>EPSG:103484</authid>
+      <description>NAD_1983_CORS96_StatePlane_New_Jersey_FIPS_2900</description>
+      <projectionacronym>tmerc</projectionacronym>
+      <ellipsoidacronym>GRS80</ellipsoidacronym>
+      <geographicflag>false</geographicflag>
+    </spatialrefsys>
+  </projectCrs>
+  <layer-tree-group>
+    <customproperties/>
+    <layer-tree-layer name="buyouts_geo_NJ_state" providerKey="delimitedtext" checked="Qt::Checked" source="./Buyouts/buyouts_geo_NJ_state.csv?type=csv&amp;detectTypes=yes&amp;xField=lng&amp;yField=lat&amp;crs=EPSG:4326&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=no" id="buyouts_geo_NJ_state_155fb7b2_2032_4ae9_a7c2_3ca549141a07" expanded="1">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer name="buyouts_geo_NJ_FEMA" providerKey="delimitedtext" checked="Qt::Checked" source="./Buyouts/buyouts_geo_NJ_FEMA.csv?type=csv&amp;detectTypes=yes&amp;xField=lng&amp;yField=lat&amp;crs=EPSG:4326&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=no" id="buyouts_geo_NJ_FEMA_b44aaefd_cf59_48e4_9373_ca91008ca307" expanded="1">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer name="New_Jersey_Counties" providerKey="ogr" checked="Qt::Checked" source="./NJ_shapefiles/New_Jersey_Counties/New_Jersey_Counties.shp" id="New_Jersey_Counties_3eb6b436_9f73_4145_b203_7de7781aff06" expanded="1">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer name="New_Jersey_Counties" providerKey="ogr" checked="Qt::Checked" source="./NJ_shapefiles/New_Jersey_Counties/New_Jersey_Counties.shp" id="New_Jersey_Counties_1416a308_2783_4f6c_84e5_1c3f6e9e0126" expanded="1">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer name="county_counts" providerKey="delimitedtext" checked="Qt::Checked" source="./Repetitive_Loss_Properties/county_counts.csv?type=csv&amp;detectTypes=yes&amp;geomType=none&amp;subsetIndex=no&amp;watchFile=no" id="county_counts_7339db07_cef5_42b1_b4df_fd8343535320" expanded="1">
+      <customproperties/>
+    </layer-tree-layer>
+    <custom-order enabled="0">
+      <item>buyouts_geo_NJ_FEMA_b44aaefd_cf59_48e4_9373_ca91008ca307</item>
+      <item>buyouts_geo_NJ_state_155fb7b2_2032_4ae9_a7c2_3ca549141a07</item>
+      <item>New_Jersey_Counties_3eb6b436_9f73_4145_b203_7de7781aff06</item>
+      <item>New_Jersey_Counties_1416a308_2783_4f6c_84e5_1c3f6e9e0126</item>
+    </custom-order>
+  </layer-tree-group>
+  <snapping-settings enabled="0" mode="2" intersection-snapping="0" type="1" tolerance="12" unit="1">
+    <individual-layer-settings>
+      <layer-setting enabled="0" type="1" id="buyouts_geo_NJ_FEMA_b44aaefd_cf59_48e4_9373_ca91008ca307" tolerance="12" units="1"/>
+      <layer-setting enabled="0" type="1" id="New_Jersey_Counties_3eb6b436_9f73_4145_b203_7de7781aff06" tolerance="12" units="1"/>
+      <layer-setting enabled="0" type="1" id="New_Jersey_Counties_1416a308_2783_4f6c_84e5_1c3f6e9e0126" tolerance="12" units="1"/>
+      <layer-setting enabled="0" type="1" id="buyouts_geo_NJ_state_155fb7b2_2032_4ae9_a7c2_3ca549141a07" tolerance="12" units="1"/>
+    </individual-layer-settings>
+  </snapping-settings>
+  <relations/>
+  <mapcanvas name="theMapCanvas" annotationsVisible="1">
+    <units>meters</units>
+    <extent>
+      <xmin>-101799.20274515601340681</xmin>
+      <ymin>33967.67969437179272063</ymin>
+      <xmax>416559.95830703072715551</xmax>
+      <ymax>237110.40740204849862494</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=tmerc +lat_0=38.83333333333334 +lon_0=-74.5 +k=0.9999 +x_0=150000 +y_0=0 +ellps=GRS80 +units=m +no_defs</proj4>
+        <srsid>28382</srsid>
+        <srid>103484</srid>
+        <authid>EPSG:103484</authid>
+        <description>NAD_1983_CORS96_StatePlane_New_Jersey_FIPS_2900</description>
+        <projectionacronym>tmerc</projectionacronym>
+        <ellipsoidacronym>GRS80</ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <expressionContextScope/>
+  </mapcanvas>
+  <projectModels/>
+  <legend updateDrawingOrder="true">
+    <legendlayer name="buyouts_geo_NJ_state" showFeatureCount="0" checked="Qt::Checked" drawingOrder="-1" open="true">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile layerid="buyouts_geo_NJ_state_155fb7b2_2032_4ae9_a7c2_3ca549141a07" isInOverview="0" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer name="buyouts_geo_NJ_FEMA" showFeatureCount="0" checked="Qt::Checked" drawingOrder="-1" open="true">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile layerid="buyouts_geo_NJ_FEMA_b44aaefd_cf59_48e4_9373_ca91008ca307" isInOverview="0" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer name="New_Jersey_Counties" showFeatureCount="0" checked="Qt::Checked" drawingOrder="-1" open="true">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile layerid="New_Jersey_Counties_3eb6b436_9f73_4145_b203_7de7781aff06" isInOverview="0" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer name="New_Jersey_Counties" showFeatureCount="0" checked="Qt::Checked" drawingOrder="-1" open="true">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile layerid="New_Jersey_Counties_1416a308_2783_4f6c_84e5_1c3f6e9e0126" isInOverview="0" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer name="county_counts" showFeatureCount="0" checked="Qt::Checked" drawingOrder="-1" open="true">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile layerid="county_counts_7339db07_cef5_42b1_b4df_fd8343535320" isInOverview="0" visible="1"/>
+      </filegroup>
+    </legendlayer>
+  </legend>
+  <mapViewDocks/>
+  <mapViewDocks3D/>
+  <mapcanvas name="mAreaCanvas" annotationsVisible="1">
+    <units>degrees</units>
+    <extent>
+      <xmin>0</xmin>
+      <ymin>0</ymin>
+      <xmax>0</xmax>
+      <ymax>0</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <expressionContextScope/>
+  </mapcanvas>
+  <mapcanvas name="mAreaCanvas" annotationsVisible="1">
+    <units>degrees</units>
+    <extent>
+      <xmin>0</xmin>
+      <ymin>0</ymin>
+      <xmax>0</xmax>
+      <ymax>0</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <expressionContextScope/>
+  </mapcanvas>
+  <mapcanvas name="mAreaCanvas" annotationsVisible="1">
+    <units>degrees</units>
+    <extent>
+      <xmin>0</xmin>
+      <ymin>0</ymin>
+      <xmax>0</xmax>
+      <ymax>0</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <expressionContextScope/>
+  </mapcanvas>
+  <projectlayers>
+    <maplayer simplifyDrawingHints="1" simplifyAlgorithm="0" simplifyMaxScale="1" type="vector" geometry="Polygon" minScale="1e+08" labelsEnabled="0" autoRefreshEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0" simplifyDrawingTol="1" readOnly="0" refreshOnNotifyEnabled="0" maxScale="0" simplifyLocal="1" refreshOnNotifyMessage="" autoRefreshTime="0" wkbType="MultiPolygon">
+      <extent>
+        <xmin>193684.74502459168434143</xmin>
+        <ymin>34945.754153773188591</ymin>
+        <xmax>657059.67818101122975349</xmax>
+        <ymax>919549.44327618926763535</ymax>
+      </extent>
+      <id>New_Jersey_Counties_1416a308_2783_4f6c_84e5_1c3f6e9e0126</id>
+      <datasource>./NJ_shapefiles/New_Jersey_Counties/New_Jersey_Counties.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>New_Jersey_Counties</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=38.83333333333334 +lon_0=-74.5 +k=0.9999 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs</proj4>
+          <srsid>1382</srsid>
+          <srid>3424</srid>
+          <authid>EPSG:3424</authid>
+          <description>NAD83 / New Jersey (ftUS)</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial miny="0" minx="0" minz="0" dimensions="2" maxz="0" crs="" maxy="0" maxx="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 symbollevels="0" type="singleSymbol" forceraster="0" enableorderby="0">
+        <symbols>
+          <symbol name="0" alpha="1" clip_to_extent="1" type="fill" force_rhr="0">
+            <layer enabled="1" pass="0" locked="0" class="SimpleFill">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="224,229,225,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.26" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property value="0" key="embeddedWidgets/count"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
+        <DiagramCategory scaleBasedVisibility="0" opacity="1" penColor="#000000" diagramOrientation="Up" barWidth="5" minimumSize="0" minScaleDenominator="0" maxScaleDenominator="1e+08" rotationOffset="270" lineSizeScale="3x:0,0,0,0,0,0" sizeType="MM" backgroundColor="#ffffff" penWidth="0" sizeScale="3x:0,0,0,0,0,0" scaleDependency="Area" width="15" enabled="0" labelPlacementMethod="XHeight" lineSizeType="MM" height="15" backgroundAlpha="255" penAlpha="255">
+          <fontProperties style="" description=".AppleSystemUIFont,13,-1,5,50,0,0,0,0,0"/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings linePlacementFlags="18" obstacle="0" showAll="1" zIndex="0" priority="0" placement="1" dist="0">
+        <properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks/>
+        <checkConfiguration type="Map">
+          <Option name="QgsGeometryGapCheck" type="Map">
+            <Option name="allowedGapsBuffer" type="double" value="0"/>
+            <Option name="allowedGapsEnabled" type="bool" value="false"/>
+            <Option name="allowedGapsLayer" type="QString" value=""/>
+          </Option>
+        </checkConfiguration>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="OBJECTID">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="COUNTY">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="COUNTY_LAB">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CO">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="GNIS_NAME">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="GNIS">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="FIPSSTCO">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="FIPSCO">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ACRES">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SQ_MILES">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="POP2010">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="POP2000">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="POP1990">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="POP1980">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="POPDEN2010">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="POPDEN2000">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="POPDEN1990">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="POPDEN1980">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="REGION">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="GLOBALID">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Shape_Leng">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Shape_Area">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias name="" index="0" field="OBJECTID"/>
+        <alias name="" index="1" field="COUNTY"/>
+        <alias name="" index="2" field="COUNTY_LAB"/>
+        <alias name="" index="3" field="CO"/>
+        <alias name="" index="4" field="GNIS_NAME"/>
+        <alias name="" index="5" field="GNIS"/>
+        <alias name="" index="6" field="FIPSSTCO"/>
+        <alias name="" index="7" field="FIPSCO"/>
+        <alias name="" index="8" field="ACRES"/>
+        <alias name="" index="9" field="SQ_MILES"/>
+        <alias name="" index="10" field="POP2010"/>
+        <alias name="" index="11" field="POP2000"/>
+        <alias name="" index="12" field="POP1990"/>
+        <alias name="" index="13" field="POP1980"/>
+        <alias name="" index="14" field="POPDEN2010"/>
+        <alias name="" index="15" field="POPDEN2000"/>
+        <alias name="" index="16" field="POPDEN1990"/>
+        <alias name="" index="17" field="POPDEN1980"/>
+        <alias name="" index="18" field="REGION"/>
+        <alias name="" index="19" field="GLOBALID"/>
+        <alias name="" index="20" field="Shape_Leng"/>
+        <alias name="" index="21" field="Shape_Area"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default expression="" field="OBJECTID" applyOnUpdate="0"/>
+        <default expression="" field="COUNTY" applyOnUpdate="0"/>
+        <default expression="" field="COUNTY_LAB" applyOnUpdate="0"/>
+        <default expression="" field="CO" applyOnUpdate="0"/>
+        <default expression="" field="GNIS_NAME" applyOnUpdate="0"/>
+        <default expression="" field="GNIS" applyOnUpdate="0"/>
+        <default expression="" field="FIPSSTCO" applyOnUpdate="0"/>
+        <default expression="" field="FIPSCO" applyOnUpdate="0"/>
+        <default expression="" field="ACRES" applyOnUpdate="0"/>
+        <default expression="" field="SQ_MILES" applyOnUpdate="0"/>
+        <default expression="" field="POP2010" applyOnUpdate="0"/>
+        <default expression="" field="POP2000" applyOnUpdate="0"/>
+        <default expression="" field="POP1990" applyOnUpdate="0"/>
+        <default expression="" field="POP1980" applyOnUpdate="0"/>
+        <default expression="" field="POPDEN2010" applyOnUpdate="0"/>
+        <default expression="" field="POPDEN2000" applyOnUpdate="0"/>
+        <default expression="" field="POPDEN1990" applyOnUpdate="0"/>
+        <default expression="" field="POPDEN1980" applyOnUpdate="0"/>
+        <default expression="" field="REGION" applyOnUpdate="0"/>
+        <default expression="" field="GLOBALID" applyOnUpdate="0"/>
+        <default expression="" field="Shape_Leng" applyOnUpdate="0"/>
+        <default expression="" field="Shape_Area" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="OBJECTID"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="COUNTY"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="COUNTY_LAB"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="CO"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="GNIS_NAME"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="GNIS"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="FIPSSTCO"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="FIPSCO"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="ACRES"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="SQ_MILES"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="POP2010"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="POP2000"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="POP1990"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="POP1980"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="POPDEN2010"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="POPDEN2000"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="POPDEN1990"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="POPDEN1980"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="REGION"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="GLOBALID"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="Shape_Leng"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="Shape_Area"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" exp="" field="OBJECTID"/>
+        <constraint desc="" exp="" field="COUNTY"/>
+        <constraint desc="" exp="" field="COUNTY_LAB"/>
+        <constraint desc="" exp="" field="CO"/>
+        <constraint desc="" exp="" field="GNIS_NAME"/>
+        <constraint desc="" exp="" field="GNIS"/>
+        <constraint desc="" exp="" field="FIPSSTCO"/>
+        <constraint desc="" exp="" field="FIPSCO"/>
+        <constraint desc="" exp="" field="ACRES"/>
+        <constraint desc="" exp="" field="SQ_MILES"/>
+        <constraint desc="" exp="" field="POP2010"/>
+        <constraint desc="" exp="" field="POP2000"/>
+        <constraint desc="" exp="" field="POP1990"/>
+        <constraint desc="" exp="" field="POP1980"/>
+        <constraint desc="" exp="" field="POPDEN2010"/>
+        <constraint desc="" exp="" field="POPDEN2000"/>
+        <constraint desc="" exp="" field="POPDEN1990"/>
+        <constraint desc="" exp="" field="POPDEN1980"/>
+        <constraint desc="" exp="" field="REGION"/>
+        <constraint desc="" exp="" field="GLOBALID"/>
+        <constraint desc="" exp="" field="Shape_Leng"/>
+        <constraint desc="" exp="" field="Shape_Area"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+        <columns>
+          <column name="OBJECTID" width="-1" hidden="0" type="field"/>
+          <column name="COUNTY" width="-1" hidden="0" type="field"/>
+          <column name="COUNTY_LAB" width="-1" hidden="0" type="field"/>
+          <column name="CO" width="-1" hidden="0" type="field"/>
+          <column name="GNIS_NAME" width="-1" hidden="0" type="field"/>
+          <column name="GNIS" width="-1" hidden="0" type="field"/>
+          <column name="FIPSSTCO" width="-1" hidden="0" type="field"/>
+          <column name="FIPSCO" width="-1" hidden="0" type="field"/>
+          <column name="ACRES" width="-1" hidden="0" type="field"/>
+          <column name="SQ_MILES" width="-1" hidden="0" type="field"/>
+          <column name="POP2010" width="-1" hidden="0" type="field"/>
+          <column name="POP2000" width="-1" hidden="0" type="field"/>
+          <column name="POP1990" width="-1" hidden="0" type="field"/>
+          <column name="POP1980" width="-1" hidden="0" type="field"/>
+          <column name="POPDEN2010" width="-1" hidden="0" type="field"/>
+          <column name="POPDEN2000" width="-1" hidden="0" type="field"/>
+          <column name="POPDEN1990" width="-1" hidden="0" type="field"/>
+          <column name="POPDEN1980" width="-1" hidden="0" type="field"/>
+          <column name="REGION" width="-1" hidden="0" type="field"/>
+          <column name="GLOBALID" width="-1" hidden="0" type="field"/>
+          <column name="Shape_Leng" width="-1" hidden="0" type="field"/>
+          <column name="Shape_Area" width="-1" hidden="0" type="field"/>
+          <column width="-1" hidden="1" type="actions"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field name="ACRES" editable="1"/>
+        <field name="CO" editable="1"/>
+        <field name="COUNTY" editable="1"/>
+        <field name="COUNTY_LAB" editable="1"/>
+        <field name="FIPSCO" editable="1"/>
+        <field name="FIPSSTCO" editable="1"/>
+        <field name="GLOBALID" editable="1"/>
+        <field name="GNIS" editable="1"/>
+        <field name="GNIS_NAME" editable="1"/>
+        <field name="OBJECTID" editable="1"/>
+        <field name="POP1980" editable="1"/>
+        <field name="POP1990" editable="1"/>
+        <field name="POP2000" editable="1"/>
+        <field name="POP2010" editable="1"/>
+        <field name="POPDEN1980" editable="1"/>
+        <field name="POPDEN1990" editable="1"/>
+        <field name="POPDEN2000" editable="1"/>
+        <field name="POPDEN2010" editable="1"/>
+        <field name="REGION" editable="1"/>
+        <field name="SQ_MILES" editable="1"/>
+        <field name="Shape_Area" editable="1"/>
+        <field name="Shape_Leng" editable="1"/>
+      </editable>
+      <labelOnTop>
+        <field name="ACRES" labelOnTop="0"/>
+        <field name="CO" labelOnTop="0"/>
+        <field name="COUNTY" labelOnTop="0"/>
+        <field name="COUNTY_LAB" labelOnTop="0"/>
+        <field name="FIPSCO" labelOnTop="0"/>
+        <field name="FIPSSTCO" labelOnTop="0"/>
+        <field name="GLOBALID" labelOnTop="0"/>
+        <field name="GNIS" labelOnTop="0"/>
+        <field name="GNIS_NAME" labelOnTop="0"/>
+        <field name="OBJECTID" labelOnTop="0"/>
+        <field name="POP1980" labelOnTop="0"/>
+        <field name="POP1990" labelOnTop="0"/>
+        <field name="POP2000" labelOnTop="0"/>
+        <field name="POP2010" labelOnTop="0"/>
+        <field name="POPDEN1980" labelOnTop="0"/>
+        <field name="POPDEN1990" labelOnTop="0"/>
+        <field name="POPDEN2000" labelOnTop="0"/>
+        <field name="POPDEN2010" labelOnTop="0"/>
+        <field name="REGION" labelOnTop="0"/>
+        <field name="SQ_MILES" labelOnTop="0"/>
+        <field name="Shape_Area" labelOnTop="0"/>
+        <field name="Shape_Leng" labelOnTop="0"/>
+      </labelOnTop>
+      <widgets/>
+      <previewExpression>GNIS_NAME</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer simplifyDrawingHints="1" simplifyAlgorithm="0" simplifyMaxScale="1" type="vector" geometry="Polygon" minScale="1e+08" labelsEnabled="0" autoRefreshEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0" simplifyDrawingTol="1" readOnly="0" refreshOnNotifyEnabled="0" maxScale="0" simplifyLocal="1" refreshOnNotifyMessage="" autoRefreshTime="0" wkbType="MultiPolygon">
+      <extent>
+        <xmin>193684.74502459168434143</xmin>
+        <ymin>34945.754153773188591</ymin>
+        <xmax>657059.67818101122975349</xmax>
+        <ymax>919549.44327618926763535</ymax>
+      </extent>
+      <id>New_Jersey_Counties_3eb6b436_9f73_4145_b203_7de7781aff06</id>
+      <datasource>./NJ_shapefiles/New_Jersey_Counties/New_Jersey_Counties.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>New_Jersey_Counties</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=38.83333333333334 +lon_0=-74.5 +k=0.9999 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs</proj4>
+          <srsid>1382</srsid>
+          <srid>3424</srid>
+          <authid>EPSG:3424</authid>
+          <description>NAD83 / New Jersey (ftUS)</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>true</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial miny="0" minx="0" minz="0" dimensions="2" maxz="0" crs="" maxy="0" maxx="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins>
+        <join joinFieldName="county" cascadedDelete="0" memoryCache="1" joinLayerId="county_counts_7339db07_cef5_42b1_b4df_fd8343535320" editable="0" targetFieldName="COUNTY" dynamicForm="0" upsertOnEdit="0"/>
+      </vectorjoins>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 symbollevels="0" attr="county_counts_count" type="graduatedSymbol" forceraster="0" graduatedMethod="GraduatedColor" enableorderby="0">
+        <ranges>
+          <range lower="7.000000000000000" upper="25.199999999999999" label="7 - 25 " symbol="0" render="true"/>
+          <range lower="25.199999999999999" upper="62.200000000000003" label="25 - 62 " symbol="1" render="true"/>
+          <range lower="62.200000000000003" upper="125.599999999999980" label="62 - 126 " symbol="2" render="true"/>
+          <range lower="125.599999999999980" upper="207.200000000000017" label="126 - 207 " symbol="3" render="true"/>
+          <range lower="207.200000000000017" upper="604.000000000000000" label="207 - 604 " symbol="4" render="true"/>
+        </ranges>
+        <symbols>
+          <symbol name="0" alpha="1" clip_to_extent="1" type="fill" force_rhr="0">
+            <layer enabled="1" pass="0" locked="0" class="SimpleFill">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="255,255,255,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="56,128,54,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.26" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol name="1" alpha="1" clip_to_extent="1" type="fill" force_rhr="0">
+            <layer enabled="1" pass="0" locked="0" class="SimpleFill">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="255,191,191,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="56,128,54,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.26" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol name="2" alpha="1" clip_to_extent="1" type="fill" force_rhr="0">
+            <layer enabled="1" pass="0" locked="0" class="SimpleFill">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="255,128,128,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="56,128,54,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.26" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol name="3" alpha="1" clip_to_extent="1" type="fill" force_rhr="0">
+            <layer enabled="1" pass="0" locked="0" class="SimpleFill">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="255,64,64,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="56,128,54,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.26" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol name="4" alpha="1" clip_to_extent="1" type="fill" force_rhr="0">
+            <layer enabled="1" pass="0" locked="0" class="SimpleFill">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="255,0,0,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="56,128,54,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.26" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <source-symbol>
+          <symbol name="0" alpha="1" clip_to_extent="1" type="fill" force_rhr="0">
+            <layer enabled="1" pass="0" locked="0" class="SimpleFill">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="77,175,74,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="56,128,54,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.26" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </source-symbol>
+        <colorramp name="[source]" type="gradient">
+          <prop v="255,255,255,255" k="color1"/>
+          <prop v="255,0,0,255" k="color2"/>
+          <prop v="0" k="discrete"/>
+          <prop v="gradient" k="rampType"/>
+        </colorramp>
+        <classificationMethod id="Quantile">
+          <symmetricMode enabled="0" astride="0" symmetrypoint="0"/>
+          <labelFormat trimtrailingzeroes="1" format="%1 - %2 " labelprecision="4"/>
+          <extraInformation/>
+        </classificationMethod>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property value="GNIS_NAME" key="dualview/previewExpressions"/>
+        <property value="0" key="embeddedWidgets/count"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
+        <DiagramCategory scaleBasedVisibility="0" opacity="1" penColor="#000000" diagramOrientation="Up" barWidth="5" minimumSize="0" minScaleDenominator="0" maxScaleDenominator="1e+08" rotationOffset="270" lineSizeScale="3x:0,0,0,0,0,0" sizeType="MM" backgroundColor="#ffffff" penWidth="0" sizeScale="3x:0,0,0,0,0,0" scaleDependency="Area" width="15" enabled="0" labelPlacementMethod="XHeight" lineSizeType="MM" height="15" backgroundAlpha="255" penAlpha="255">
+          <fontProperties style="" description=".AppleSystemUIFont,13,-1,5,50,0,0,0,0,0"/>
+          <attribute color="#000000" label="" field=""/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings linePlacementFlags="18" obstacle="0" showAll="1" zIndex="0" priority="0" placement="1" dist="0">
+        <properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks/>
+        <checkConfiguration type="Map">
+          <Option name="QgsGeometryGapCheck" type="Map">
+            <Option name="allowedGapsBuffer" type="double" value="0"/>
+            <Option name="allowedGapsEnabled" type="bool" value="false"/>
+            <Option name="allowedGapsLayer" type="QString" value=""/>
+          </Option>
+        </checkConfiguration>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="OBJECTID">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="COUNTY">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="COUNTY_LAB">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CO">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="GNIS_NAME">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="GNIS">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="FIPSSTCO">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="FIPSCO">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ACRES">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SQ_MILES">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="POP2010">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="POP2000">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="POP1990">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="POP1980">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="POPDEN2010">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="POPDEN2000">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="POPDEN1990">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="POPDEN1980">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="REGION">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="GLOBALID">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Shape_Leng">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Shape_Area">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="county_counts_count">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias name="" index="0" field="OBJECTID"/>
+        <alias name="" index="1" field="COUNTY"/>
+        <alias name="" index="2" field="COUNTY_LAB"/>
+        <alias name="" index="3" field="CO"/>
+        <alias name="" index="4" field="GNIS_NAME"/>
+        <alias name="" index="5" field="GNIS"/>
+        <alias name="" index="6" field="FIPSSTCO"/>
+        <alias name="" index="7" field="FIPSCO"/>
+        <alias name="" index="8" field="ACRES"/>
+        <alias name="" index="9" field="SQ_MILES"/>
+        <alias name="" index="10" field="POP2010"/>
+        <alias name="" index="11" field="POP2000"/>
+        <alias name="" index="12" field="POP1990"/>
+        <alias name="" index="13" field="POP1980"/>
+        <alias name="" index="14" field="POPDEN2010"/>
+        <alias name="" index="15" field="POPDEN2000"/>
+        <alias name="" index="16" field="POPDEN1990"/>
+        <alias name="" index="17" field="POPDEN1980"/>
+        <alias name="" index="18" field="REGION"/>
+        <alias name="" index="19" field="GLOBALID"/>
+        <alias name="" index="20" field="Shape_Leng"/>
+        <alias name="" index="21" field="Shape_Area"/>
+        <alias name="" index="22" field="county_counts_count"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default expression="" field="OBJECTID" applyOnUpdate="0"/>
+        <default expression="" field="COUNTY" applyOnUpdate="0"/>
+        <default expression="" field="COUNTY_LAB" applyOnUpdate="0"/>
+        <default expression="" field="CO" applyOnUpdate="0"/>
+        <default expression="" field="GNIS_NAME" applyOnUpdate="0"/>
+        <default expression="" field="GNIS" applyOnUpdate="0"/>
+        <default expression="" field="FIPSSTCO" applyOnUpdate="0"/>
+        <default expression="" field="FIPSCO" applyOnUpdate="0"/>
+        <default expression="" field="ACRES" applyOnUpdate="0"/>
+        <default expression="" field="SQ_MILES" applyOnUpdate="0"/>
+        <default expression="" field="POP2010" applyOnUpdate="0"/>
+        <default expression="" field="POP2000" applyOnUpdate="0"/>
+        <default expression="" field="POP1990" applyOnUpdate="0"/>
+        <default expression="" field="POP1980" applyOnUpdate="0"/>
+        <default expression="" field="POPDEN2010" applyOnUpdate="0"/>
+        <default expression="" field="POPDEN2000" applyOnUpdate="0"/>
+        <default expression="" field="POPDEN1990" applyOnUpdate="0"/>
+        <default expression="" field="POPDEN1980" applyOnUpdate="0"/>
+        <default expression="" field="REGION" applyOnUpdate="0"/>
+        <default expression="" field="GLOBALID" applyOnUpdate="0"/>
+        <default expression="" field="Shape_Leng" applyOnUpdate="0"/>
+        <default expression="" field="Shape_Area" applyOnUpdate="0"/>
+        <default expression="" field="county_counts_count" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="OBJECTID"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="COUNTY"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="COUNTY_LAB"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="CO"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="GNIS_NAME"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="GNIS"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="FIPSSTCO"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="FIPSCO"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="ACRES"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="SQ_MILES"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="POP2010"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="POP2000"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="POP1990"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="POP1980"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="POPDEN2010"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="POPDEN2000"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="POPDEN1990"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="POPDEN1980"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="REGION"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="GLOBALID"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="Shape_Leng"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="Shape_Area"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="county_counts_count"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" exp="" field="OBJECTID"/>
+        <constraint desc="" exp="" field="COUNTY"/>
+        <constraint desc="" exp="" field="COUNTY_LAB"/>
+        <constraint desc="" exp="" field="CO"/>
+        <constraint desc="" exp="" field="GNIS_NAME"/>
+        <constraint desc="" exp="" field="GNIS"/>
+        <constraint desc="" exp="" field="FIPSSTCO"/>
+        <constraint desc="" exp="" field="FIPSCO"/>
+        <constraint desc="" exp="" field="ACRES"/>
+        <constraint desc="" exp="" field="SQ_MILES"/>
+        <constraint desc="" exp="" field="POP2010"/>
+        <constraint desc="" exp="" field="POP2000"/>
+        <constraint desc="" exp="" field="POP1990"/>
+        <constraint desc="" exp="" field="POP1980"/>
+        <constraint desc="" exp="" field="POPDEN2010"/>
+        <constraint desc="" exp="" field="POPDEN2000"/>
+        <constraint desc="" exp="" field="POPDEN1990"/>
+        <constraint desc="" exp="" field="POPDEN1980"/>
+        <constraint desc="" exp="" field="REGION"/>
+        <constraint desc="" exp="" field="GLOBALID"/>
+        <constraint desc="" exp="" field="Shape_Leng"/>
+        <constraint desc="" exp="" field="Shape_Area"/>
+        <constraint desc="" exp="" field="county_counts_count"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+        <columns>
+          <column name="OBJECTID" width="-1" hidden="0" type="field"/>
+          <column name="COUNTY" width="-1" hidden="0" type="field"/>
+          <column name="COUNTY_LAB" width="-1" hidden="0" type="field"/>
+          <column name="CO" width="-1" hidden="0" type="field"/>
+          <column name="GNIS_NAME" width="-1" hidden="0" type="field"/>
+          <column name="GNIS" width="-1" hidden="0" type="field"/>
+          <column name="FIPSSTCO" width="-1" hidden="0" type="field"/>
+          <column name="FIPSCO" width="-1" hidden="0" type="field"/>
+          <column name="ACRES" width="-1" hidden="0" type="field"/>
+          <column name="SQ_MILES" width="-1" hidden="0" type="field"/>
+          <column name="POP2010" width="-1" hidden="0" type="field"/>
+          <column name="POP2000" width="-1" hidden="0" type="field"/>
+          <column name="POP1990" width="-1" hidden="0" type="field"/>
+          <column name="POP1980" width="-1" hidden="0" type="field"/>
+          <column name="POPDEN2010" width="-1" hidden="0" type="field"/>
+          <column name="POPDEN2000" width="-1" hidden="0" type="field"/>
+          <column name="POPDEN1990" width="-1" hidden="0" type="field"/>
+          <column name="POPDEN1980" width="-1" hidden="0" type="field"/>
+          <column name="REGION" width="-1" hidden="0" type="field"/>
+          <column name="GLOBALID" width="-1" hidden="0" type="field"/>
+          <column name="Shape_Leng" width="-1" hidden="0" type="field"/>
+          <column name="Shape_Area" width="-1" hidden="0" type="field"/>
+          <column name="county_counts_count" width="-1" hidden="0" type="field"/>
+          <column width="-1" hidden="1" type="actions"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field name="ACRES" editable="1"/>
+        <field name="CO" editable="1"/>
+        <field name="COUNTY" editable="1"/>
+        <field name="COUNTY_LAB" editable="1"/>
+        <field name="FIPSCO" editable="1"/>
+        <field name="FIPSSTCO" editable="1"/>
+        <field name="GLOBALID" editable="1"/>
+        <field name="GNIS" editable="1"/>
+        <field name="GNIS_NAME" editable="1"/>
+        <field name="OBJECTID" editable="1"/>
+        <field name="POP1980" editable="1"/>
+        <field name="POP1990" editable="1"/>
+        <field name="POP2000" editable="1"/>
+        <field name="POP2010" editable="1"/>
+        <field name="POPDEN1980" editable="1"/>
+        <field name="POPDEN1990" editable="1"/>
+        <field name="POPDEN2000" editable="1"/>
+        <field name="POPDEN2010" editable="1"/>
+        <field name="REGION" editable="1"/>
+        <field name="SQ_MILES" editable="1"/>
+        <field name="Shape_Area" editable="1"/>
+        <field name="Shape_Leng" editable="1"/>
+        <field name="county_counts_count" editable="0"/>
+      </editable>
+      <labelOnTop>
+        <field name="ACRES" labelOnTop="0"/>
+        <field name="CO" labelOnTop="0"/>
+        <field name="COUNTY" labelOnTop="0"/>
+        <field name="COUNTY_LAB" labelOnTop="0"/>
+        <field name="FIPSCO" labelOnTop="0"/>
+        <field name="FIPSSTCO" labelOnTop="0"/>
+        <field name="GLOBALID" labelOnTop="0"/>
+        <field name="GNIS" labelOnTop="0"/>
+        <field name="GNIS_NAME" labelOnTop="0"/>
+        <field name="OBJECTID" labelOnTop="0"/>
+        <field name="POP1980" labelOnTop="0"/>
+        <field name="POP1990" labelOnTop="0"/>
+        <field name="POP2000" labelOnTop="0"/>
+        <field name="POP2010" labelOnTop="0"/>
+        <field name="POPDEN1980" labelOnTop="0"/>
+        <field name="POPDEN1990" labelOnTop="0"/>
+        <field name="POPDEN2000" labelOnTop="0"/>
+        <field name="POPDEN2010" labelOnTop="0"/>
+        <field name="REGION" labelOnTop="0"/>
+        <field name="SQ_MILES" labelOnTop="0"/>
+        <field name="Shape_Area" labelOnTop="0"/>
+        <field name="Shape_Leng" labelOnTop="0"/>
+        <field name="county_counts_count" labelOnTop="0"/>
+      </labelOnTop>
+      <widgets/>
+      <previewExpression>GNIS_NAME</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer simplifyDrawingHints="1" simplifyAlgorithm="0" simplifyMaxScale="1" type="vector" geometry="Point" minScale="1e+08" labelsEnabled="0" autoRefreshEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0" simplifyDrawingTol="1" readOnly="0" refreshOnNotifyEnabled="0" maxScale="0" simplifyLocal="1" refreshOnNotifyMessage="" autoRefreshTime="0" wkbType="Point">
+      <extent>
+        <xmin>-75.25200590000000034</xmin>
+        <ymin>39.28055200000000013</ymin>
+        <xmax>-74.00560260000000312</xmax>
+        <ymax>41.14199829999999736</ymax>
+      </extent>
+      <id>buyouts_geo_NJ_FEMA_b44aaefd_cf59_48e4_9373_ca91008ca307</id>
+      <datasource>file:./Buyouts/buyouts_geo_NJ_FEMA.csv?type=csv&amp;detectTypes=yes&amp;xField=lng&amp;yField=lat&amp;crs=EPSG:4326&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=no</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>buyouts_geo_NJ_FEMA</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>true</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">delimitedtext</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 symbollevels="0" type="singleSymbol" forceraster="0" enableorderby="0">
+        <symbols>
+          <symbol name="0" alpha="1" clip_to_extent="1" type="marker" force_rhr="0">
+            <layer enabled="1" pass="0" locked="0" class="SimpleMarker">
+              <prop v="0" k="angle"/>
+              <prop v="152,125,183,255" k="color"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="circle" k="name"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="diameter" k="scale_method"/>
+              <prop v="2" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="MM" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="ID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Fiscal Year">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Disaster Description">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Residence">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Owner">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Structure">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Address">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="City">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="State">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Zip">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Price Paid">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Status">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Country">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Address_Full">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="lat">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="lng">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias name="" index="0" field="ID"/>
+        <alias name="" index="1" field="Fiscal Year"/>
+        <alias name="" index="2" field="Disaster Description"/>
+        <alias name="" index="3" field="Residence"/>
+        <alias name="" index="4" field="Owner"/>
+        <alias name="" index="5" field="Structure"/>
+        <alias name="" index="6" field="Address"/>
+        <alias name="" index="7" field="City"/>
+        <alias name="" index="8" field="State"/>
+        <alias name="" index="9" field="Zip"/>
+        <alias name="" index="10" field="Price Paid"/>
+        <alias name="" index="11" field="Status"/>
+        <alias name="" index="12" field="Country"/>
+        <alias name="" index="13" field="Address_Full"/>
+        <alias name="" index="14" field="lat"/>
+        <alias name="" index="15" field="lng"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default expression="" field="ID" applyOnUpdate="0"/>
+        <default expression="" field="Fiscal Year" applyOnUpdate="0"/>
+        <default expression="" field="Disaster Description" applyOnUpdate="0"/>
+        <default expression="" field="Residence" applyOnUpdate="0"/>
+        <default expression="" field="Owner" applyOnUpdate="0"/>
+        <default expression="" field="Structure" applyOnUpdate="0"/>
+        <default expression="" field="Address" applyOnUpdate="0"/>
+        <default expression="" field="City" applyOnUpdate="0"/>
+        <default expression="" field="State" applyOnUpdate="0"/>
+        <default expression="" field="Zip" applyOnUpdate="0"/>
+        <default expression="" field="Price Paid" applyOnUpdate="0"/>
+        <default expression="" field="Status" applyOnUpdate="0"/>
+        <default expression="" field="Country" applyOnUpdate="0"/>
+        <default expression="" field="Address_Full" applyOnUpdate="0"/>
+        <default expression="" field="lat" applyOnUpdate="0"/>
+        <default expression="" field="lng" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="ID"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="Fiscal Year"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="Disaster Description"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="Residence"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="Owner"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="Structure"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="Address"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="City"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="State"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="Zip"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="Price Paid"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="Status"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="Country"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="Address_Full"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="lat"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="lng"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" exp="" field="ID"/>
+        <constraint desc="" exp="" field="Fiscal Year"/>
+        <constraint desc="" exp="" field="Disaster Description"/>
+        <constraint desc="" exp="" field="Residence"/>
+        <constraint desc="" exp="" field="Owner"/>
+        <constraint desc="" exp="" field="Structure"/>
+        <constraint desc="" exp="" field="Address"/>
+        <constraint desc="" exp="" field="City"/>
+        <constraint desc="" exp="" field="State"/>
+        <constraint desc="" exp="" field="Zip"/>
+        <constraint desc="" exp="" field="Price Paid"/>
+        <constraint desc="" exp="" field="Status"/>
+        <constraint desc="" exp="" field="Country"/>
+        <constraint desc="" exp="" field="Address_Full"/>
+        <constraint desc="" exp="" field="lat"/>
+        <constraint desc="" exp="" field="lng"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer simplifyDrawingHints="1" simplifyAlgorithm="0" simplifyMaxScale="1" type="vector" geometry="Point" minScale="1e+08" labelsEnabled="0" autoRefreshEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0" simplifyDrawingTol="1" readOnly="0" refreshOnNotifyEnabled="0" maxScale="0" simplifyLocal="1" refreshOnNotifyMessage="" autoRefreshTime="0" wkbType="Point">
+      <extent>
+        <xmin>-96.02623520000000212</xmin>
+        <ymin>36.98857209999999895</ymin>
+        <xmax>-73.97604799999999159</xmax>
+        <ymax>41.88530169999999941</ymax>
+      </extent>
+      <id>buyouts_geo_NJ_state_155fb7b2_2032_4ae9_a7c2_3ca549141a07</id>
+      <datasource>file:./Buyouts/buyouts_geo_NJ_state.csv?type=csv&amp;detectTypes=yes&amp;xField=lng&amp;yField=lat&amp;crs=EPSG:4326&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=no</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>buyouts_geo_NJ_state</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>true</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">delimitedtext</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 symbollevels="0" type="singleSymbol" forceraster="0" enableorderby="0">
+        <symbols>
+          <symbol name="0" alpha="1" clip_to_extent="1" type="marker" force_rhr="0">
+            <layer enabled="1" pass="0" locked="0" class="SimpleMarker">
+              <prop v="0" k="angle"/>
+              <prop v="190,207,80,255" k="color"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="circle" k="name"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="diameter" k="scale_method"/>
+              <prop v="2" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="MM" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="Date Closed">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Disaster Description">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Type of Structure">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Address">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Town">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Address_Full">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="lat">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="lng">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias name="" index="0" field="Date Closed"/>
+        <alias name="" index="1" field="Disaster Description"/>
+        <alias name="" index="2" field="Type of Structure"/>
+        <alias name="" index="3" field="Address"/>
+        <alias name="" index="4" field="Town"/>
+        <alias name="" index="5" field="Address_Full"/>
+        <alias name="" index="6" field="lat"/>
+        <alias name="" index="7" field="lng"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default expression="" field="Date Closed" applyOnUpdate="0"/>
+        <default expression="" field="Disaster Description" applyOnUpdate="0"/>
+        <default expression="" field="Type of Structure" applyOnUpdate="0"/>
+        <default expression="" field="Address" applyOnUpdate="0"/>
+        <default expression="" field="Town" applyOnUpdate="0"/>
+        <default expression="" field="Address_Full" applyOnUpdate="0"/>
+        <default expression="" field="lat" applyOnUpdate="0"/>
+        <default expression="" field="lng" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="Date Closed"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="Disaster Description"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="Type of Structure"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="Address"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="Town"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="Address_Full"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="lat"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="lng"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" exp="" field="Date Closed"/>
+        <constraint desc="" exp="" field="Disaster Description"/>
+        <constraint desc="" exp="" field="Type of Structure"/>
+        <constraint desc="" exp="" field="Address"/>
+        <constraint desc="" exp="" field="Town"/>
+        <constraint desc="" exp="" field="Address_Full"/>
+        <constraint desc="" exp="" field="lat"/>
+        <constraint desc="" exp="" field="lng"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer wkbType="NoGeometry" refreshOnNotifyMessage="" refreshOnNotifyEnabled="0" type="vector" geometry="No geometry" autoRefreshTime="0" autoRefreshEnabled="0" styleCategories="AllStyleCategories" maxScale="0" hasScaleBasedVisibilityFlag="0" minScale="1e+08" readOnly="0">
+      <id>county_counts_7339db07_cef5_42b1_b4df_fd8343535320</id>
+      <datasource>file:./Repetitive_Loss_Properties/county_counts.csv?type=csv&amp;detectTypes=yes&amp;geomType=none&amp;subsetIndex=no&amp;watchFile=no</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>county_counts</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4></proj4>
+          <srsid>0</srsid>
+          <srid>0</srid>
+          <authid></authid>
+          <description></description>
+          <projectionacronym></projectionacronym>
+          <ellipsoidacronym></ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>true</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">delimitedtext</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <customproperties/>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="county">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="count">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias name="" index="0" field="county"/>
+        <alias name="" index="1" field="count"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default expression="" field="county" applyOnUpdate="0"/>
+        <default expression="" field="count" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="county"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="count"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" exp="" field="county"/>
+        <constraint desc="" exp="" field="count"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+  </projectlayers>
+  <layerorder>
+    <layer id="buyouts_geo_NJ_FEMA_b44aaefd_cf59_48e4_9373_ca91008ca307"/>
+    <layer id="buyouts_geo_NJ_state_155fb7b2_2032_4ae9_a7c2_3ca549141a07"/>
+    <layer id="New_Jersey_Counties_3eb6b436_9f73_4145_b203_7de7781aff06"/>
+    <layer id="New_Jersey_Counties_1416a308_2783_4f6c_84e5_1c3f6e9e0126"/>
+  </layerorder>
+  <properties>
+    <DefaultStyles>
+      <ColorRamp type="QString"></ColorRamp>
+      <Fill type="QString"></Fill>
+      <Line type="QString"></Line>
+      <Marker type="QString"></Marker>
+      <Opacity type="double">1</Opacity>
+      <RandomColors type="bool">true</RandomColors>
+    </DefaultStyles>
+    <Gui>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+    </Gui>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+    <Macros>
+      <pythonCode type="QString"></pythonCode>
+    </Macros>
+    <Measure>
+      <Ellipsoid type="QString">WGS84</Ellipsoid>
+    </Measure>
+    <Measurement>
+      <AreaUnits type="QString">m2</AreaUnits>
+      <DistanceUnits type="QString">meters</DistanceUnits>
+    </Measurement>
+    <PAL>
+      <CandidatesLine type="int">50</CandidatesLine>
+      <CandidatesPoint type="int">16</CandidatesPoint>
+      <CandidatesPolygon type="int">30</CandidatesPolygon>
+      <DrawRectOnly type="bool">false</DrawRectOnly>
+      <DrawUnplaced type="bool">false</DrawUnplaced>
+      <SearchMethod type="int">0</SearchMethod>
+      <ShowingAllLabels type="bool">false</ShowingAllLabels>
+      <ShowingCandidates type="bool">false</ShowingCandidates>
+      <ShowingPartialsLabels type="bool">true</ShowingPartialsLabels>
+      <TextFormat type="int">0</TextFormat>
+      <UnplacedColor type="QString">255,0,0,255</UnplacedColor>
+    </PAL>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <PositionPrecision>
+      <Automatic type="bool">true</Automatic>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+      <DegreeFormat type="QString">MU</DegreeFormat>
+    </PositionPrecision>
+    <SpatialRefSys>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+    <WCSLayers type="QStringList"/>
+    <WCSUrl type="QString"></WCSUrl>
+    <WFSLayers type="QStringList"/>
+    <WFSTLayers>
+      <Delete type="QStringList"/>
+      <Insert type="QStringList"/>
+      <Update type="QStringList"/>
+    </WFSTLayers>
+    <WFSUrl type="QString"></WFSUrl>
+    <WMSAccessConstraints type="QString">None</WMSAccessConstraints>
+    <WMSAddWktGeometry type="bool">false</WMSAddWktGeometry>
+    <WMSContactMail type="QString"></WMSContactMail>
+    <WMSContactOrganization type="QString"></WMSContactOrganization>
+    <WMSContactPerson type="QString"></WMSContactPerson>
+    <WMSContactPhone type="QString"></WMSContactPhone>
+    <WMSContactPosition type="QString"></WMSContactPosition>
+    <WMSDefaultMapUnitsPerMm type="double">1</WMSDefaultMapUnitsPerMm>
+    <WMSFees type="QString">conditions unknown</WMSFees>
+    <WMSImageQuality type="int">90</WMSImageQuality>
+    <WMSKeywordList type="QStringList">
+      <value></value>
+    </WMSKeywordList>
+    <WMSMaxAtlasFeatures type="int">1</WMSMaxAtlasFeatures>
+    <WMSOnlineResource type="QString"></WMSOnlineResource>
+    <WMSPrecision type="QString">8</WMSPrecision>
+    <WMSRootName type="QString"></WMSRootName>
+    <WMSSegmentizeFeatureInfoGeometry type="bool">false</WMSSegmentizeFeatureInfoGeometry>
+    <WMSServiceAbstract type="QString"></WMSServiceAbstract>
+    <WMSServiceCapabilities type="bool">false</WMSServiceCapabilities>
+    <WMSServiceTitle type="QString"></WMSServiceTitle>
+    <WMSTileBuffer type="int">0</WMSTileBuffer>
+    <WMSUrl type="QString"></WMSUrl>
+    <WMSUseLayerIDs type="bool">false</WMSUseLayerIDs>
+    <WMTSGrids>
+      <CRS type="QStringList"/>
+      <Config type="QStringList"/>
+    </WMTSGrids>
+    <WMTSJpegLayers>
+      <Group type="QStringList"/>
+      <Layer type="QStringList"/>
+      <Project type="bool">false</Project>
+    </WMTSJpegLayers>
+    <WMTSLayers>
+      <Group type="QStringList"/>
+      <Layer type="QStringList"/>
+      <Project type="bool">false</Project>
+    </WMTSLayers>
+    <WMTSMinScale type="int">5000</WMTSMinScale>
+    <WMTSPngLayers>
+      <Group type="QStringList"/>
+      <Layer type="QStringList"/>
+      <Project type="bool">false</Project>
+    </WMTSPngLayers>
+    <WMTSUrl type="QString"></WMTSUrl>
+  </properties>
+  <visibility-presets/>
+  <transformContext>
+    <srcDest destTransform="+towgs84=0,0,1.9,0,0,0.814,-0.38" dest="EPSG:4324" source="EPSG:3424" sourceTransform="+towgs84=1,1,-1"/>
+    <srcDest destTransform="" dest="EPSG:4326" source="EPSG:3424" sourceTransform="+towgs84=1,1,-1"/>
+    <srcDest destTransform="" dest="EPSG:4326" source="EPSG:4324" sourceTransform="+towgs84=0,0,1.9,0,0,0.814,-0.38"/>
+  </transformContext>
+  <projectMetadata>
+    <identifier></identifier>
+    <parentidentifier></parentidentifier>
+    <language></language>
+    <type></type>
+    <title></title>
+    <abstract></abstract>
+    <contact>
+      <name></name>
+      <organization></organization>
+      <position></position>
+      <voice></voice>
+      <fax></fax>
+      <email></email>
+      <role></role>
+    </contact>
+    <links/>
+    <author>Kasturi Pananjady</author>
+    <creation>2019-12-08T12:30:26</creation>
+  </projectMetadata>
+  <Annotations/>
+  <Layouts/>
+  <Bookmarks/>
+</qgis>
